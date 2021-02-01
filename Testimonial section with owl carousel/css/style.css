@@ -1,0 +1,76 @@
+body{
+    background: #009fdc;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.section-padding{
+    padding: 60px 0;
+}
+.testimonial-carousel{
+    margin: 5% auto;
+}
+.img-d img{
+    display: block !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.img-d img{
+    /* width: 100% !important; */
+    text-align: center;
+}
+.single-test{
+    text-align: center;
+    padding: 10%;
+    background: #fff;
+    border-radius: 100px 0 100px 0;
+    transition: ease-in;
+}
+.img-text h2{
+    text-transform: uppercase;
+    margin: 20px 0 -15px;
+    color: #ff5257;
+}
+.img-text i{
+    color:#ffcc00;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background:#fff !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 50px 5px 0;
+}
+.owl-dot.active{
+    background-color: #ff5257 !important;
+}
+@media(min-width:768px) and (max-width:991px){
+    .wrapper{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+ .wrapper{
+        width: 100%;
+    }
+}
+@media(min-width:480px) and (max-width:768px){
+    .wrapper{
+        width: 100%;
+    }
+}
